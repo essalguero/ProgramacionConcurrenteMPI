@@ -619,7 +619,7 @@ int main(int argc, char **argv)
 		if (0 == rank)
 		{
 			printf("Number of parameters is not correct\n");
-			printf("Usage: readFile <filename> <rows> <columns> <filterFilename> <filterRows> <filterColumns> <resultFile>\n\n");
+			printf("Usage: mpirun convolutionMPI <filename> <rows> <columns> <filterFilename> <filterRows> <filterColumns> <resultFile>\n\n");
 		}
 		
 		returnValue = -1;

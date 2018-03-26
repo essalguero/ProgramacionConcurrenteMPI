@@ -164,7 +164,7 @@ int main(int argc, char **argv)
 	if (argc != 8)
 	{
 		printf("Number of parameters is not correct\n");
-		printf("Usage: readFile <filename> <rows> <columns> <filterFilename> <filterRows> <filterColumns> <resultFile>\n\n");
+		printf("Usage: convolutionOpenMP <filename> <rows> <columns> <filterFilename> <filterRows> <filterColumns> <resultFile>\n\n");
 
 		return -1;
 	}
